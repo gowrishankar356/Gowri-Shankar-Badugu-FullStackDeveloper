@@ -130,7 +130,11 @@ header {
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
 }
-
+/* Education Info*/
+.baground {
+    background-image: url(../images/education.jpg);
+    background-size: cover;
+}
 
 /* Contact Info
 --------------------------------*/
