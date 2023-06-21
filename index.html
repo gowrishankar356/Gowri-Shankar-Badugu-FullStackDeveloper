@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gowri Badugu - Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm&family=Montserrat:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
@@ -18,44 +21,52 @@
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
-        <div class="content-wrap">
-        <h2>Featured Projects</h2>
+        <div class="content-wrap divider">
+          <h2>Featured Pojects</h2>
 
-        <h3>Software Engineering - Full Stack Projects</h3>
-        <!-- Copy the whole <section> block to add more projects. -->
-          <section>
-            <h3>Healthy Hoosiers - Wellness Tracking System</h3>  
+          <h3>Software Engineering - Full Stack Projects</h3>
+          <!-- Copy the whole <section> block to add more projects. -->
+          <section class="projects-item">
+            
+            <images>
             <img src="images/homepage.png" alt="homepage of application"><br>
             <img src="images/dashboard.png" alt="homepage of application"><br>
             <img src="images/search.png" alt="homepage of application"><br>
+          </images>
+          <h3>Healthy Hoosiers - Wellness Tracking System</h3>
             <p>Healthy Hoosiers - Wellness Tracking System is used to shop for fitness and wellness needs and to track their daily progress like
               number of calories burnt, number of excersises finished, etc. with separate logins for clients, fitness professionals, and administrators.
               Clinets can register for specific plans or create their own personal fitness and diet plans and track their daily progress. Fitness professionals include both trainers who upload content and plans and dieticians who can provide diet plans. 
               Finally, the administrative users are those who screen and approve the trainer contents, manage the clients, handle customer queries, and so forth. 
-            </p>
-            <p>
               Tech Stack used is MERN(MongoDB, Express.js, React.js, and Node.js).
             </p>
+
             <a class = "btn" href="#" target="_blank">View project / case study</a>
           </section>      
 
-          <section>
-            <h3>Hoosiers Delivery Management System</h3>
+          <section class="projects-item">
+            
+            <images>
             <img src="images/homepage.png" alt="homepage of application">
-            <p>Hoosiers Delivery Management System is a web-based platform that enables users to conveniently manage and monitor their deliveries. 
-              We are utilizing a dataset from Kaggle which includes detailed information about orders, customers, and products. 
-              Using this application, the user can input the necessary delivery details such as the items to be delivered and their destination. 
-              Additionally, they can update the delivery status as delivered or in progress or not delivered. 
-              The application also allows for basic CRUD (Create, Read, Update, and Delete) operations to be performed on the delivery data points. </p>
-              <p>Tech Stack used is MERN(MySQL, Express.js, React.js, and Node.js)</p>
-            <a class = "btn" href="#" target="_blank">View project / case study</a>
+            </images>
+            <h3>Hoosiers Delivery Management System</h3>
+              <p>Hoosiers Delivery Management System is a web-based platform that enables users to conveniently manage and monitor their deliveries. 
+                We are utilizing a dataset from Kaggle which includes detailed information about orders, customers, and products. 
+                Using this application, the user can input the necessary delivery details such as the items to be delivered and their destination. 
+                Additionally, they can update the delivery status as delivered or in progress or not delivered. 
+                The application also allows for basic CRUD (Create, Read, Update, and Delete) operations to be performed on the delivery data points. </p>
+                <p>Tech Stack used is MERN(MySQL, Express.js, React.js, and Node.js)</p>
+              <a class = "btn" href="#" target="_blank">View project / case study</a>
           </section>   
         
-        <h3>Data Mining & Machine Learning Projects</h3>
+          <h3>Data Mining & Machine Learning Projects</h3>
         
-          <section>
-            <h3>Anime CRP(Classifier, Recommender, and Predictor)</h3>
+          <section class="projects-item">
+            
+            <images>
             <img src="project-thumbnail.png" alt="description of image">
+            </images>
+            <h3>Anime CRP(Classifier, Recommender, and Predictor)</h3>
             <p>Anime CRP which used anime data set from kaggle and classifies the animes as Beginner, Advanced, or Pro based on number of episodes and genre.
               The Recommender recommends the user which anime to watch based on his/her preferences like genre, number of episodes, popularity, and ranking.
               Anime Predictor which predicts the anime the user will be watching next or suggest the next anime to watch based on his/her watch history.
@@ -63,9 +74,12 @@
             <a class = "btn" href="#" target="_blank">View project / case study</a>
           </section>  
         
-          <section>
+          <section class="projects-item">
+            
+            <images>
+              <img src="project-thumbnail.png" alt="description of image">
+            </images>
             <h3>Sentiment Analysis and Topic Modeling on every day use of ChatGPT!</h3>
-            <img src="project-thumbnail.png" alt="description of image">
             <p> Research includes collecting the ChatGPT submissions from Reddit social media and analysed each submission using sentiment analysis.
               Also done Topic Modeling on the submissions. Above mentioned analysis are done to answer my follwing research questions: <br>
               <p>1. For what purpose the ChatGPT is used? Topic Modeling on ChatGPT to know the topics
@@ -83,35 +97,43 @@
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class = "work-experience">
-        <div class="content-wrap">
+        <div class="content-wrap items-details divider">
         <h2>Work Experience</h2>
 
         <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
+        <section class="job-container">
+          <div class="job-item">
             <h3>Software Engineer Intern</h3>
             <p>Pringle Robotics Inc.</p>
             <p>01-06-2023 - Ongoing</p>
-            <p>I am currently working as a Software Engineer intern at Pringle Robotics Inc.</p>
+          </div>  
+          <div class="job-summary">
+            <p>Currently working as an Software Developer Intern.</p>
+          </div> 
           <!-- End of Job block. -->
         </section>
 
-        <section>
-          <h3>Oracle HCM Associate Consultant</h3>
-          <p>Nalsoft Pvt Ltd.</p>
-          <p>02-10-2020 to 28-02-2022</p>
-          <p>I have worked as an Oracle HCM Associate Consultant for fusion apps concentrating in Payroll, Core HR, Self-Service, and Oracle Time and Labor. Tech stack mainly used are Pl/SQL and SQL.</p>
-          <h4>Responsibilities include: </h4>
-          <ul>
-            <li>Implemented and demonstrated three full-time Oracle Fusion ERP Systems which include Core HR, Payroll, Absence Management, Self-Service and Time and Labor modules which include retrieving employee salary details and leave data to calculate monthly salary, Indemnity, Social Insurance, deductions etc using SQL & PL/SQL.</li>
-            <li>Gathered requirements, understanding the gaps between the oracle system and client business process, mapping the application according to the client requirement with 100% accuracy, user end training.</li>
-            <li>Implementation of advanced Reports to fetch, sort, process and highlight the employee data regarding implemented modules for budgeting and reconciliation purposes using SQL & PL/SQL.</li>
-            <li>Data Migration for Go live.</li>
-            <li>Self-Trained on advanced fast formulas of Oracle Time and Labor which mainly include retrieving the employee biometric data and calculate respective deductions and overtime earnings.</li>
-            <li>Trained on Oracle Fusion Core HR, Global Payroll, Absence Management, Time and Labor, Talent Management and respective report implementations using SQL and PL/SQL.</li>
-            <li>Gained the hands-on experience in SQL & PL/SQL code optimization and implementing Oracle Fusion ERP System.</li>
-          </ul>
-          <h4>Skills acquired</h4>
-          <p>Time & Attendance · Human Resources (HR) · Oracle Reports · Self Service · Requirements Gathering · Functional Training · Data Migration · SQL · Payroll · Java · PL/SQL</p>
+        <section class="job-container">
+          <div class="job-item">
+            <h3>Oracle HCM Associate Consultant</h3>
+            <p>Nalsoft Pvt Ltd.</p>
+            <p>20 OCT, 2020 - 28 FEB, 2022</p>
+          </div>
+          <div class="job-summary">
+            <p>Worked as an Oracle HCM Associate Consultant for fusion apps concentrating in Payroll, Core HR, Self-Service, and Oracle Time and Labor.</p>
+            <p>Tech stack mainly used are Pl/SQL and SQL.</p>
+            <h4>Responsibilities include: </h4>
+            <ul>
+              <li>Implemented and demonstrated three full-time Oracle Fusion ERP Systems which include Core HR, Payroll, Absence Management, Self-Service and Time and Labor modules which include retrieving employee salary details and leave data to calculate monthly salary, Indemnity, Social Insurance, deductions etc using SQL & PL/SQL.</li>
+              <li>Implemented advanced fast formulas for elements like Annual Leave, Social Insurance, Gratuity etc.</li>
+              <li>Implemented advanced Reports to fetch, sort, process and highlight the employee data regarding implemented modules for budgeting and reconciliation purposes using SQL & PL/SQL.</li>
+              <li>Data Migration for Go live.</li>
+              <li>Self-Trained on advanced fast formulas of Oracle Time and Labor which mainly include retrieving the employee biometric data and calculate respective deductions and overtime earnings.</li>
+              <li>Gained the hands-on experience in SQL & PL/SQL code optimization and implementing Oracle Fusion ERP System.</li>
+            </ul>
+            <h4>Skills acquired</h4>
+            <p>Pl/SQL · SQL · Java · Payroll · Core HR · Self Service</p>  
+        </div>
         </section>
       </div>
         <!-- End of Job block. -->
@@ -119,6 +141,7 @@
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class = "education">
+        <div class = "content-wrap items-details">
         <h2>Education</h2>
 
         <!-- Copy this whole <section> block to add more schools. -->
@@ -135,6 +158,7 @@
             <li>Introduction to Statistics</li>
           </ul>
         </section>
+        </div>
         <!-- End of School block. -->
       </section>
 
@@ -144,7 +168,7 @@
         <h2>Contact information</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
+        <ul class="contact-list">
           <li><a href="mailto:email@example.com">gbadugu@iu.edu</a></li>
           <li><a href="https://www.linkedin.com/in/gowri-shankar-badugu/" target="_blank">LinkedIn</a></li>
           <li><a href="https://leetcode.com/Gowri_Shankar_Badugu/" target="_blank">Leetcode</a></li>
